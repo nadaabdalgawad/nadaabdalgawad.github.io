@@ -41,7 +41,7 @@ horizontal: true
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_press = site.press | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
@@ -50,7 +50,7 @@ horizontal: true
   <div class="container">
     <div class="row row-cols-2">
     {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+      {% include press_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
