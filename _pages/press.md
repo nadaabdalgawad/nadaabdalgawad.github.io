@@ -49,7 +49,7 @@ horizontal: true
 
   <div class="container">
     <div class="row row-cols-2">
-    {% for project in sorted_projects %}
+    {% for press in sorted_press %}
       {% include press_horizontal.liquid %}
     {% endfor %}
     </div>
