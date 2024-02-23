@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 1
-description: a project that redirects to another website
+title: AUS honors students for excellence in graduate studies
+description: #a project that redirects to another website
 img: #assets/img/7.jpg
-redirect: https://unsplash.com
+redirect: https://www.aus.edu/media/news/aus-honors-students-for-excellence-in-graduate-studies
 importance: 1
 category: work
 ---
