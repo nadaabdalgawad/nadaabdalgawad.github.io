@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: press
 permalink: /press/
 description: A growing collection of your cool projects.
