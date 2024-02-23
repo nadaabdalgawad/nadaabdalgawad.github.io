@@ -1,26 +1,26 @@
 <div class="card-item col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+  <a href="{% if press.redirect %}{{ press.redirect }}{% else %}{{ press.url | relative_url }}{% endif %}">
     <div class="card hoverable">
       <div class="row g-0">
-        {% if project.img %}
+        {% if press.img %}
           <div class="card-img col-md-6">
-            {% include figure.liquid path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" %}
+            {% include figure.liquid path=press.img sizes="(min-width: 768px) 156px, 50vw" alt="press thumbnail" %}
           </div>
         {% endif %}
-        <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
+        <div class="{% if press.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
-            <p class="card-text">{{ project.description }}</p>
+            <h3 class="card-title text-lowercase">{{ press.title }}</h3>
+            <p class="card-text">{{ press.description }}</p>
             <div class="row ml-1 mr-1 p-0">
-              {% if project.github %}
+              {% if press.github %}
                 <div class="github-icon">
                   <div class="icon" data-toggle="tooltip" title="Code Repository">
-                    <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                    <a href="{{ press.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
                   </div>
-                  {% if project.github_stars %}
+                  {% if press.github_stars %}
                     <span class="stars" data-toggle="tooltip" title="GitHub Stars">
                       <i class="fa-solid fa-star"></i>
-                      <span id="{{ project.github_stars }}-stars"></span>
+                      <span id="{{ press.github_stars }}-stars"></span>
                     </span>
                   {% endif %}
                 </div>
