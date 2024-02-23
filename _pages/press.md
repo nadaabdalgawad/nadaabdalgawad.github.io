@@ -2,7 +2,7 @@
 layout: page
 title: press
 permalink: /press/
-description: A growing collection of your cool projects.
+description: My name in the news
 nav: true
 nav_order: 3
 display_categories: #[work, fun]
