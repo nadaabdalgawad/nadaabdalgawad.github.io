@@ -20,5 +20,3 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I am pursuing my PhD in Computer Science and Engineering at <a href="https://umich.edu/">University of Michigan</a> under the supervision of Dr. <a href="https://web.eecs.umich.edu/~valeria/">Valeria Bertacco</a>. My research are is computer architecture with a focus on memory systems. I earned my Bachelor of Science in Computer Engineering from the <a href="https://www.aus.edu/">American University of Sharjah (AUS)</a> where I published research in the areas of computer security, machine learning and FPGAs. 
-
-<!--As for teaching experience, I worked as a teaching assistant for several courses including both hardware and software. I was awarded the best teaching assistant in the computer science and engineering department as well as the best leadership award at AUS.
