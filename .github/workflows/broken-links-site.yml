@@ -23,15 +23,19 @@ jobs:
           ruby-version: "3.2.2"
           bundler-cache: true
       - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
-        with:
-          commitChange: false
-          valueFile: "_config.yml"
-          changes: |
-            {
-              "giscus.repo": "${{ github.repository }}",
-              "baseurl": ""
-            }
+        env:
+          GH_REPO: ${{ github.repository }}
+        run: |
+          python3 -c "
+          import yaml
+          with open('_config.yml', 'r') as f:
+              config = yaml.safe_load(f)
+          config['giscus'] = config.get('giscus', {})
+          config['giscus']['repo'] = '$GH_REPO'
+          config['baseurl'] = ''
+          with open('_config.yml', 'w') as f:
+              yaml.dump(config, f)
+          "
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
