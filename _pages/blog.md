@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false # set to true (or remove) to publish the blog page
 permalink: /blog/
 title: blog
 nav: false
