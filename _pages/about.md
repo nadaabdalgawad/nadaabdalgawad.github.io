@@ -20,4 +20,3 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I am a PhD candidate in Computer Science and Engineering at the <a href="https://umich.edu/">University of Michigan</a>, advised by Dr. <a href="https://eecs.engin.umich.edu/people/dreslinski-ronald/">Ronald Dreslinski</a>. My research is in computer architecture, with a focus on memory systems. I earned my B.S. in Computer Engineering from the <a href="https://www.aus.edu/">American University of Sharjah (AUS)</a>, where I published research in computer security, machine learning, and FPGAs.
-
