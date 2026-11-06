@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attended <a href="https://semiscan.org/event/women-in-semiconductors/">Women in Semiconductors</a> event
+Attended Women in Semiconductors event
